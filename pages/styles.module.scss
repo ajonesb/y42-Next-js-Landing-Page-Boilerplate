@@ -6,13 +6,16 @@
   position: relative;
   padding-bottom: 180px;
   padding-top: 140px;
+  @media (max-width: 1000px) {
+    background-color: $bg;
+  }
   .home_cubes_left {
     bottom: 0;
     left: 0;
     position: absolute;
     height: auto;
     max-width: 100%;
-    @media (max-width: 768px) {
+    @media (max-width: 1000px) {
       display: $hide;
     }
   }
@@ -22,8 +25,19 @@
     position: absolute;
     height: auto;
     max-width: 100%;
-    @media (max-width: 768px) {
+    @media (max-width: 1000px) {
       display: $hide;
+    }
+  }
+  .home_mobile__background {
+    background-color: $bg2;
+    display: initial;
+    height: 80vh;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    @media (min-width: 1000px) {
+      display: none;
     }
   }
   .home {
@@ -41,13 +55,14 @@
       padding: 25px 25px 0;
       text-align: center;
       justify-content: center;
+      z-index: 9;
+      position: relative;
       @media (max-width: 768px) {
         margin: 0 auto;
         max-width: 100%;
         padding: 0px;
       }
       .title {
-        color: $bg;
         font-size: 54px;
         line-height: 64px;
         font-weight: 700;
@@ -101,7 +116,10 @@
           width: 100%;
         }
         .full_height {
-          height: $full-height !important;
+          height: $full-height;
+          @media (max-width: 1000px) {
+            height: auto;
+          }
 
           .price__padding__top {
             padding-top: 80px !important;
@@ -208,6 +226,9 @@
       }
       .plan__section__spacing {
         padding-top: 40px;
+        @media (max-width: 1000px) {
+          padding-top: 0px;
+        }
       }
     }
 

@@ -29,6 +29,7 @@ const Home = () => {
             className={styles.home_cubes_right}
             src="./assets/home-cubes-top.svg"
           ></img>
+          <div className={styles.home_mobile__background}></div>
           <div className={styles.home}>
             <div className={styles.title__container}>
               <h1 className={styles.title}>
