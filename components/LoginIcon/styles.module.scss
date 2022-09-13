@@ -1,0 +1,10 @@
+@import "../../styles/variables.scss";
+
+.checkbox_login__icon {
+    display: block;
+    align-items: center;
+    margin-top: 26px;
+    @media (min-width: 1000px) {
+        display: $hide;
+    }
+}
