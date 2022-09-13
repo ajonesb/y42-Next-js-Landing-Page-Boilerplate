@@ -218,44 +218,6 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            {/* <div className={styles.plans__container}>
-              {homeData.plans &&
-                homeData.plans.map((plans) => {
-                  return (
-                    <>
-                      <div className={styles.plan__section}>
-                        <div className={styles.plan__title}>{plans.title}</div>
-                        <div className={styles.plan__description}>
-                          {plans.title_description}
-                        </div>
-                        <div className={styles.plan__price}>{plans.price}</div>
-                        <div className={styles.plan__sub_price}>
-                          {plans.per}
-                        </div>
-                        <div className={styles.plan__button}>
-                          <SignupButton />
-                        </div>
-                        <div className={styles.plan__details}>
-                          <div className={styles.plan__detail}>
-                            {plans.detail_one}
-                          </div>
-                          <div className={styles.plan__detail}>
-                            {plans.detail_two}
-                          </div>
-                          <div className={styles.plan__detail}>
-                            {plans.detail_three}
-                          </div>
-                          <div className={styles.plan__detail}>
-                            {plans.detail_four}
-                          </div>
-                        </div>
-
-                        <div className={styles.plan__see_all}>See All</div>
-                      </div>
-                    </>
-                  );
-                })}
-            </div> */}
           </div>
         </div>
         <div className={styles.home__features}>
@@ -270,11 +232,10 @@ const Home = () => {
                 plan.
               </p>
             </div>
-           
-              <div className={styles.grow_early_stage__content__button}>
-                <Button variant="teal">Contact Us</Button>
-              </div>
-         
+
+            <div className={styles.grow_early_stage__content__button}>
+              <Button variant="teal">Contact Us</Button>
+            </div>
           </div>
         </div>
       </View>
