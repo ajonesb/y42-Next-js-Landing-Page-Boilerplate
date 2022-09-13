@@ -47,9 +47,9 @@ const Home = () => {
             {/* Plans Sections */}
             <div className={styles.plans_section__row}>
               <div
-                class={`${styles.plans__section__flex} ${styles.plan__section__spacing}`}
+                className={`${styles.plans__section__flex} ${styles.plan__section__spacing}`}
               >
-                <div class={styles.full_height}>
+                <div className={styles.full_height}>
                   {/* Developer */}
                   <div className={styles.plan__section}>
                     <div className={styles.plan__title}>Developer</div>
@@ -102,8 +102,8 @@ const Home = () => {
                 </div>
               </div>
 
-              <div class={styles.plans__section__flex}>
-                <div class={styles.full_height}>
+              <div className={styles.plans__section__flex}>
+                <div className={styles.full_height}>
                   {/* Business */}
                   <div className={styles.plan__section}>
                     <div className={styles.plan__title}>Business</div>
@@ -157,9 +157,9 @@ const Home = () => {
               </div>
 
               <div
-                class={`${styles.plans__section__flex} ${styles.plan__section__spacing}`}
+                className={`${styles.plans__section__flex} ${styles.plan__section__spacing}`}
               >
-                <div class={styles.full_height}>
+                <div className={styles.full_height}>
                   {/* Enterprise */}
                   <div className={styles.plan__section}>
                     <div className={styles.plan__title}>Enterprise</div>
