@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import styles from "./styles.module.scss";
+import Link from 'next/link'
 
 import { BiMenuAltRight } from "react-icons/bi";
 import { AiOutlineCloseSquare } from "react-icons/ai";
@@ -19,7 +20,9 @@ const Nav = () => {
             {!menuOpen ? <BiMenuAltRight /> : <AiOutlineCloseSquare />}
           </button>
           <Logo className={styles.logo} />
-          <LoginIcon/>
+          <Link href="/login">
+          <a><LoginIcon/></a>
+          </Link>
           <nav
             className={`${styles.nav} ${menuOpen ? styles[`nav--open`] : {}}`}
           >
