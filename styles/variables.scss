@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap");
+
+$ubuntu-font: "Ubuntu", sans-serif;
+
+$bg: rgb(255, 255, 255);
+$bg2: #35359e;
+$primary: #6aedd4;
+$dark-blue:#0f273f;
+$blue-light: #5252E3;
+$text: rgb(255, 255, 255);
+$text-gray-light: #D4D4E7;
+$text-gray: #282E34;
+$orange: #Ea9D13;
+$pink: #Ea6CA0;
+$blue: #35359E;
+$primary-font: "Montserrat", sans-serif;
+$secondary-font: "Nunito", sans-serif;
+
+// Utilities 
+$spacing-sm: 8px;
+$spacing-md: 16px;
+$spacing-lg: 32px;
+$header-height: 72px;
+$show: block;
+$hide: none;
+$text-center: center;
+$full-height: 100%;
+$full-width: 100%;
+
+// Buttons
+$primary-button-color: #0f273f;
+$primary-button-font-size: 18px;
+$primary-button-font-weight: 700;
+$primary-button-line-height: 20px;
+$primary-button-width: 150px;
+$primary-button-height: 60px;

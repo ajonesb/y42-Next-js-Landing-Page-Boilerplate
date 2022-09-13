@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="511" height="400" viewBox="0 0 511 400" fill="none">
+<mask id="mask0_1_31" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="511" height="400">
+<rect width="511" height="400" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask0_1_31)">
+<g opacity="0.3">
+<path d="M498 304.822L398.485 247.396L299.085 304.822L398.485 362.248L498 304.822Z" fill="#4D4DD6"/>
+<path d="M398.483 362.248L298.968 304.822V419.674L398.483 477.1V362.248Z" fill="#2D2D88"/>
+<path d="M398.483 362.248V477.1L497.998 419.789V304.822L398.483 362.248Z" fill="#4141BA"/>
+<path d="M99.9366 304.822L0.421265 247.396V362.248L99.9366 304.822Z" fill="#4D4DD6"/>
+<path d="M0.421265 362.248V477.1L99.9366 419.789V304.822L0.421265 362.248Z" fill="#4141BA"/>
+<path d="M199.453 247.165V362.017L298.968 304.706V191.699L299.083 189.739L199.453 247.165Z" fill="#4141BA"/>
+<path d="M199.568 247.165L298.968 189.739L-0.155029 17L0.421537 132.429L199.568 247.165Z" fill="#4D4DD6"/>
+<path d="M199.146 361.589V246.737L102.859 191.271L0 132V246.967L199.146 361.589Z" fill="#2D2D88"/>
+<path d="M298.967 419.675L199.567 362.249L-0.386108 477.447V592.53L298.967 419.675Z" fill="#4D4DD6"/>
+</g>
+</g>
+<style xmlns="" id="PDFTStyle">.qtip-content { font-family: "Times New Roman"; font-size: 17px; line-height: 19px;} .qtip-max-width { max-width: 300px; }</style></svg>

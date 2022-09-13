@@ -1,0 +1,295 @@
+@import "./variables.scss";
+
+// Home Intro
+.home__intro {
+  background-color: $bg2;
+  position: relative;
+  padding-bottom: 180px;
+  padding-top: 140px;
+  .home_cubes_left {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    height: auto;
+    max-width: 100%;
+    @media (max-width: 768px) {
+      display: $hide;
+    }
+  }
+  .home_cubes_right {
+    right: 0;
+    top: 0;
+    position: absolute;
+    height: auto;
+    max-width: 100%;
+    @media (max-width: 768px) {
+      display: $hide;
+    }
+  }
+  .home {
+    max-width: 1280px;
+    width: 100%;
+    margin: auto;
+    @media (max-width: 1024px) {
+      padding: 0px 25px;
+    }
+
+    // Top Intro text
+    .title__container {
+      margin: 0 auto;
+      max-width: 67%;
+      padding: 25px 25px 0;
+      text-align: center;
+      justify-content: center;
+      @media (max-width: 768px) {
+        margin: 0 auto;
+        max-width: 100%;
+        padding: 0px;
+      }
+      .title {
+        color: $bg;
+        font-size: 54px;
+        line-height: 64px;
+        font-weight: 700;
+        text-align: center;
+        @media (max-width: 768px) {
+          font-size: 30px;
+          line-height: 40px;
+        }
+      }
+    }
+
+    .intro__container {
+      margin: 0 auto;
+      max-width: 48%;
+      padding: 25px 25px 0;
+      text-align: center;
+      justify-content: center;
+      margin-bottom: 30px;
+      @media (max-width: 768px) {
+        max-width: 100%;
+      }
+      .intro {
+        color: $text-gray-light;
+        font-size: 24px;
+        font-style: normal;
+        line-height: 28px;
+        font-weight: 400;
+        opacity: 0.65;
+        text-align: center;
+        @media (max-width: 768px) {
+          font-size: 16px;
+          line-height: 26px;
+        }
+      }
+    }
+
+    // Plans Section
+
+    .plans_section__row {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      justify-content: center;
+      scroll-behavior: smooth;
+      position: relative;
+      z-index: 9;
+      .plans__section__flex {
+        flex: 0 0 auto;
+        width: 33.33333333%;
+        @media (max-width: 1000px) {
+          width: 100%;
+        }
+        .full_height {
+          height: $full-height !important;
+
+          .price__padding__top {
+            padding-top: 80px !important;
+            @media (max-width: 768px) {
+              padding-top: 0px;
+            }
+          }
+          .plan__section {
+            background: $bg;
+            border-radius: 10px;
+            box-shadow: 0 10px 20px rgb(0 0 0 / 10%);
+            cursor: default;
+            padding: 40px;
+            text-align: $text-center;
+            margin: 0px 14px;
+            height: 100% !important;
+            z-index: 9;
+
+            @media (max-width: 1024px) {
+              width: 100%;
+              display: block;
+              flex: 0 0 auto;
+              margin: 0px;
+              margin-bottom: 25px;
+            }
+            .plan__title {
+              color: $dark-blue;
+              font-family: $primary-font;
+              font-size: 40px;
+              font-weight: 700;
+              line-height: 56px;
+              margin-bottom: 11px;
+            }
+            .plan__description {
+              color: $text-gray;
+              font-family: $secondary-font;
+              font-size: 18px;
+              line-height: 28px;
+              margin-bottom: 5px;
+              max-height: 115px;
+              opacity: 0.65;
+              overflow-y: auto;
+            }
+            .plan__price {
+              font-family: $primary-font;
+              font-size: 40px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: 145%;
+              text-align: center;
+              @media (max-width: 768px) {
+                font-size: 55px;
+              }
+            }
+            .price__orange {
+              color: $orange;
+            }
+            .price__pink {
+              color: $pink;
+            }
+            .price__blue {
+              color: $blue;
+            }
+            .plan__sub_price {
+              font-family: $secondary-font;
+              color: $text-gray;
+            }
+            .price__hidden {
+              visibility: hidden;
+            }
+            .plan__details {
+              margin-bottom: 30px;
+              margin-top: 38px;
+              text-align: left;
+
+              .plan__details__list__item {
+                align-items: flex-start;
+                display: flex;
+                padding: 3px 0;
+
+                .plan__details__checkbox {
+                  margin-right: 5px;
+                  margin-top: 3px;
+                }
+                .plan__detail {
+                  margin: 0;
+                  color: $text-gray;
+                  font-style: normal;
+                  font-family: $secondary-font;
+                  font-weight: 400;
+                  font-size: 16px;
+                  line-height: 180%;
+                  opacity: 0.65;
+
+                  width: 100%;
+                }
+              }
+            }
+            .plan__button {
+              margin-top: 20px;
+            }
+          }
+        }
+      }
+      .plan__section__spacing {
+        padding-top: 40px;
+      }
+    }
+
+    @media (max-width: 768px) {
+      width: 100%;
+    }
+  }
+}
+
+// Home Features
+.home__features {
+  display: flex;
+  justify-content: center;
+  padding: 0 77px 50px;
+  scroll-behavior: smooth;
+  @media (max-width: 768px) {
+    padding: 0px 24px;
+    margin-top: 44px;
+  }
+  .grow_early_stage__module {
+    color: $blue-light;
+    align-items: center;
+    background: $blue-light;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 96px;
+    margin-top: -133px;
+    padding: 65px 75px;
+    max-width: 1244px;
+    width: 100%;
+    z-index: 9;
+    position: relative;
+    @media (max-width: 768px) {
+      margin-bottom: 40px;
+      padding: 30px 18px;
+      text-align: center;
+    }
+    @media (min-width: 1024px) and (max-width: 1440px) {
+      margin: 20px;
+    }
+    .grow_early_stage__module__content {
+      width: 70%;
+      @media (max-width: 768px) {
+        width: 100%;
+      }
+      .grow_early_stage__content__title {
+        color: $bg;
+        font-family: $primary-font;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 36px;
+        margin-bottom: 15px;
+        @media (max-width: 768px) {
+          font-size: 24px;
+          line-height: 32px;
+          text-align: center;
+        }
+      }
+      .grow_early_stage__content__text {
+        color: $text-gray-light;
+        font-family: $secondary-font;
+        font-size: 18px;
+        line-height: 28px;
+        max-width: 655px;
+        @media (max-width: 768px) {
+          font-size: 18px;
+          font-weight: 400;
+          line-height: 28px;
+          text-align: center;
+        }
+      }
+    }
+    .grow_early_stage__content__button {
+      text-align: right;
+      width: 30%;
+      @media (max-width: 768px) {
+        margin: 20px auto;
+        text-align: center;
+        width: 100%;
+      }
+    }
+  }
+}

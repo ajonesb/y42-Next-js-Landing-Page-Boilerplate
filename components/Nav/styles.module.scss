@@ -1,0 +1,117 @@
+@import "../../styles/variables.scss";
+
+.header {
+  height: $header-height;
+  color: $text;
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  background-color: $bg2;
+
+  &__content {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0 $spacing-md;
+    justify-content: space-between;
+    transition: 0.3s ease padding;
+    height: 100%;
+    align-items: center;
+
+    @media (max-width: 1000px) {
+      display: block;
+    }
+
+    @media (min-width: 1000px) {
+      display: flex;
+      padding: 3rem 1rem;
+    }
+
+    @media (min-width: 1024px) {
+      padding: 3rem 1rem;
+    }
+
+    @media (min-width: 1440px) {
+      padding: 3rem 19rem;
+    }
+
+    .nav__logo__menu__container {
+      display: flex;
+      justify-content: flex-start;
+    }
+  }
+
+  &__button__container {
+    display: none;
+    @media (min-width: 1000px) {
+      display: flex;
+    }
+  }
+  &__toggler {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    @media (min-width: 1000px) {
+      display: $hide;
+    }
+
+    & > svg {
+      display: $show;
+      font-size: 32px;
+    }
+  }
+}
+
+.nav {
+  width: 100%;
+  position: fixed;
+  top: $header-height;
+  right: -100%;
+  background: rgba($bg2, 0.8);
+  text-align: center;
+  padding: $spacing-md 0;
+
+  @media (min-width: 1000px) {
+    position: static;
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    background: initial;
+    width: auto;
+    padding: 0;
+
+    &__item {
+      padding: 0 $spacing-lg;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  &--open {
+    transition: 0.2s ease right;
+    right: 0;
+  }
+
+  &__item {
+    display: $show;
+    padding: $spacing-md;
+    text-decoration: none;
+    color: inherit;
+    height: 100%;
+    transition: 0.3s ease color;
+    font-family: $primary-font;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    &:hover {
+      color: $primary;
+    }
+  }
+
+  &__mobile_button__wrap {
+    @media (min-width: 1000px) {
+      display: $hide;
+    }
+    padding: $spacing-md;
+  }
+}

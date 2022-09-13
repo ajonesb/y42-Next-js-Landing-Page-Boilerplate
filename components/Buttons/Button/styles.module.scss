@@ -1,0 +1,118 @@
+@import "../../../styles/variables.scss";
+
+.btn__teal {
+  font-weight: $primary-button-font-weight;
+  font-style: normal;
+  font-size: $primary-button-font-size;
+  line-height: primary-button-line-height;
+  font-family: $primary-font;
+  color: $primary-button-color;
+  background-color: $primary;
+  border-radius: $spacing-sm / 2;
+  text-align: center;
+  cursor: pointer;
+  width: $primary-button-width;
+  height: $primary-button-height;
+
+  &:active {
+    transform: scale(0.98);
+    border-radius: 0;
+  }
+  &:hover {
+    box-shadow: 0 0 0.75em 0 $primary;
+  }
+
+  @media (max-width: 768px) {
+    width: $full-width;
+  }
+}
+
+.btn__yellow {
+  background-color: $orange;
+  color: #fff;
+  width: $full-width;
+  border: 1px solid var(--color-highlight, $orange);
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  height: 50px;
+  line-height: 20px;
+  margin: 0;
+  min-width: 180px;
+  padding: 0 25px;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.2s;
+
+  &:active {
+    transform: scale(0.98);
+    border-radius: 0;
+  }
+  &:hover {
+    box-shadow: 0 0 0.75em 0 $orange;
+  }
+}
+.btn__pink {
+  background-color: $pink;
+  padding: 5px;
+  color: #fff;
+  width: 100%;
+  background-color: var(--color-highlight, $pink);
+  border: 1px solid var(--color-highlight, $pink) !important;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  height: 50px;
+  line-height: 20px;
+  margin: 0;
+  min-width: 180px;
+  padding: 0 25px;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.2s;
+
+  &:active {
+    transform: scale(0.98);
+    border-radius: 0;
+  }
+  &:hover {
+    box-shadow: 0 0 0.75em 0 $pink;
+  }
+}
+
+.btn__blue {
+  background-color: $blue;
+  color: #fff;
+  width: 100%;
+  background-color: var(--color-highlight, $blue);
+  border: 1px solid var(--color-highlight, $blue);
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  height: 50px;
+  line-height: 20px;
+  margin: 0;
+  min-width: 180px;
+  padding: 0 25px;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.2s;
+
+  &:active {
+    transform: scale(0.98);
+    border-radius: 0;
+  }
+  &:hover {
+    box-shadow: 0 0 0.75em 0 $blue;
+  }
+}
+

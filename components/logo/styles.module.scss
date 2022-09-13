@@ -1,0 +1,23 @@
+@import "../../styles/variables.scss";
+
+.logo_small {
+  display: $show;
+  align-items: center;
+  margin: 25px auto;
+}
+
+.logo_large {
+  display: $hide;
+}
+
+@media (min-width: 1024px) {
+  .logo_small {
+    display: $hide;
+  }
+  .logo_large {
+    display: $show;
+    margin-right: 57px;
+    align-items: center;
+    padding: 10px;
+  }
+}
