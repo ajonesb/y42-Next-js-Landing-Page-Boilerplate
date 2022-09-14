@@ -1,5 +1,6 @@
 import React from "react";
 import Head from "next/head";
+import styles from "./styles.module.scss";
 
 // Components
 import Nav from "../../components/Nav/Nav"
@@ -14,7 +15,7 @@ const Login = () => {
       </Head> 
       <Nav/>
       <View>
-        <h1>Login</h1>
+      <h1 className={styles.container}>Login</h1>
       </View>
     </>
   );

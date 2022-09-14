@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styles from "./styles.module.scss";
-import Link from 'next/link'
+import Link from "next/link";
 
 import { BiMenuAltRight } from "react-icons/bi";
 import { AiOutlineCloseSquare } from "react-icons/ai";
@@ -19,9 +19,13 @@ const Nav = () => {
           <button className={styles.header__toggler} onClick={menuToggler}>
             {!menuOpen ? <BiMenuAltRight /> : <AiOutlineCloseSquare />}
           </button>
-          <Logo className={styles.logo} />
+
+          <Logo />
+
           <Link href="/login">
-          <a><LoginIcon/></a>
+            <a>
+              <LoginIcon />
+            </a>
           </Link>
           <nav
             className={`${styles.nav} ${menuOpen ? styles[`nav--open`] : {}}`}
@@ -42,7 +46,9 @@ const Nav = () => {
               <a className={styles.nav__item} href={"/login"}>
                 Log in
               </a>
-              <Button variant="teal">Signup</Button>
+              <a href="/signup" className={styles.nav__item}>
+                <Button variant="teal">Signup</Button>
+              </a>
             </div>
           </nav>
         </div>
@@ -51,13 +57,17 @@ const Nav = () => {
           <a className={styles.nav__item} href={"/login"}>
             Login
           </a>
-          <Button variant="teal">Signup</Button>
+          <a href="/signup" className={styles.nav__item}>
+            <Button variant="teal">Signup</Button>
+          </a>
         </div>
       </div>
     </div>
   );
 };
 
-<Button variant="teal">Signup</Button>;
+<a href="/signup" className={styles.nav__item}>
+  <Button variant="teal">Signup</Button>
+</a>;
 
 export default Nav;
