@@ -20,7 +20,11 @@ const Nav = () => {
             {!menuOpen ? <BiMenuAltRight /> : <AiOutlineCloseSquare />}
           </button>
 
-          <Logo />
+          <Link className={styles.logo__container}href="/home">
+            <a>
+              <Logo />
+            </a>
+          </Link>
 
           <Link href="/login">
             <a>

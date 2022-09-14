@@ -10,6 +10,7 @@ import Button from "../components/Buttons/Button/Button";
 import CheckboxYellow from "../components/Checkboxes/CheckboxYellow/CheckboxYellow";
 import CheckboxPink from "../components/Checkboxes/CheckboxPink/CheckboxPink";
 import CheckboxBlue from "../components/Checkboxes/CheckboxBlue/CheckboxBlue";
+import Link from "next/link";
 
 const Home = () => {
   return (
@@ -61,7 +62,11 @@ const Home = () => {
                     </div>
                     <div className={styles.plan__sub_price}>per month</div>
                     <div className={styles.plan__button}>
-                      <Button variant="yellow">Get Plan</Button>
+                      <Link href="https://www.y42.com/">
+                        <a>
+                          <Button variant="yellow">Get Plan</Button>
+                        </a>
+                      </Link>
                     </div>
                     <div className={styles.plan__details}>
                       <div className={styles.plan__details__list__item}>
@@ -115,7 +120,11 @@ const Home = () => {
                     </div>
                     <div className={styles.plan__sub_price}>per month</div>
                     <div className={styles.plan__button}>
-                      <Button variant="pink">Get Plan</Button>
+                      <Link href="https://www.y42.com/">
+                        <a>
+                          <Button variant="pink">Get Plan</Button>
+                        </a>
+                      </Link>
                     </div>
                     <div className={styles.plan__details}>
                       <div className={styles.plan__details__list__item}>
@@ -177,7 +186,11 @@ const Home = () => {
                       per month
                     </div>
                     <div className={styles.plan__button}>
-                      <Button variant="blue">Get Plan</Button>
+                      <Link href="https://www.y42.com/">
+                        <a>
+                          <Button variant="blue">Get Plan</Button>
+                        </a>
+                      </Link>
                     </div>
                     <div className={styles.plan__details}>
                       <div className={styles.plan__details__list__item}>
