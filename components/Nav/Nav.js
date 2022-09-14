@@ -46,9 +46,11 @@ const Nav = () => {
               <a className={styles.nav__item} href={"/login"}>
                 Log in
               </a>
-              <a href="/signup" className={styles.nav__item}>
-                <Button variant="teal">Signup</Button>
-              </a>
+              <Link href="/signup" className={styles.nav__item}>
+                <a>
+                  <Button variant="teal">Signup</Button>
+                </a>
+              </Link>
             </div>
           </nav>
         </div>
@@ -57,17 +59,21 @@ const Nav = () => {
           <a className={styles.nav__item} href={"/login"}>
             Login
           </a>
-          <a href="/signup" className={styles.nav__item}>
-            <Button variant="teal">Signup</Button>
-          </a>
+          <Link href="/signup" className={styles.nav__item}>
+            <a>
+              <Button variant="teal">Signup</Button>
+            </a>
+          </Link>
         </div>
       </div>
     </div>
   );
 };
 
-<a href="/signup" className={styles.nav__item}>
-  <Button variant="teal">Signup</Button>
-</a>;
+<Link href="/signup" className={styles.nav__item}>
+  <a>
+    <Button variant="teal">Signup</Button>
+  </a>
+</Link>;
 
 export default Nav;
