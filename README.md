@@ -2,7 +2,7 @@
 
 A Next js landing page built with React using Next js, reusable components, SASS. Works great as a starter boilerplate for any Next js application.
 
-The landing page code structure follows clean, reusable, modular componets and pages ready to use for additional content, maintainable, readable code. 
+The landing page code structure follows clean, reusable, modular components and pages ready to use for additional content, maintainable, readable code. 
 
 The homepage right now is static but ready to use with dynamic content via the homeData.js file. 
 
