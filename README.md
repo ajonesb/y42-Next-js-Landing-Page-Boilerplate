@@ -1,4 +1,4 @@
-# Y42 Next js landing Page
+# Y42 Next js landing Page Boilerplate
 
 A Next js landing page built with React using Next js, reusable components, SASS. Works great as a starter boilerplate for any Next js application.
 
