@@ -1,13 +1,15 @@
 # Y42 Next js landing Page
 
-A Next js landing page built with React using Next js, reusable components, SASS.
+A Next js landing page built with React using Next js, reusable components, SASS. Works great as a starter boilerplate for any Next js application.
+
+The landing page code structure follows clean, reusable, modular componets and pages ready to use for additional content, maintainable, readable code. 
+
+The homepage right now is static but ready to use with dynamic content via the homeData.js file. 
 
 Figma design link: https://www.figma.com/file/8CPUbkosHIaqe0TBEarmlu/Next-Js-Landing-Page?node-id=0%3A1
 
 Inside the design file you will find all of the necessary specifications (such as font-
-family, font-size, widths, height and paddings etc.) as well as visual elements you
-can export to use in your project. Here’s a quick guide to exporting assets from
-Figma.
+family, font-size, widths, height and paddings etc.)
 
 ## Development 
 
