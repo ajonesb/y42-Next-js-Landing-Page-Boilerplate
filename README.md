@@ -1,33 +1,13 @@
-# Y42 CSS Developer Test
+# Y42 Next js landing Page
 
-Task: Please recreate the provided design responsive for desktop and mobile. You
-can use any JS framework you’re familiar with to construct the project or simply
-create an HTML and css/scss files.
+A Next js landing page built with React using Next js, reusable components, SASS.
 
-You are encouraged to use Sass however please refrain from the use of external CSS libraries such as Bootstrap etc.
-
-We value high attention to detail and clean, readable code. Please don’t worry
-about any functionalities and interactions on the website, it’s enough to simply
-develop a static page according to the design.
-
-Implementing any effects on hover states will be a bonus, however since we don’t have a UX design at hand it will require some improvisation and hence is not required.
-
-Figma design link: https://www.figma.com/file/5aLsBufzlSWxAHXleLxeVe/Y42---
-CSS-Test?node-id=0%3A1
+Figma design link: https://www.figma.com/file/8CPUbkosHIaqe0TBEarmlu/Next-Js-Landing-Page?node-id=0%3A1
 
 Inside the design file you will find all of the necessary specifications (such as font-
 family, font-size, widths, height and paddings etc.) as well as visual elements you
 can export to use in your project. Here’s a quick guide to exporting assets from
 Figma.
-
-In case of any questions or difficulties you can always reach out to Dawid -
-dw@y42.com.
-
-Once you complete the test please send it to or share with the same email
-address. 
-
-On submission please specify how long did it take you to complete
-the test.
 
 ## Development 
 
